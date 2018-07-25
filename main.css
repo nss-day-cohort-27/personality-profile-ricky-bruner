@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em;
+}
+.general-container {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(white, silver);
+    color: black;
+    font-size: 1.3em;
+    text-shadow: white 1px 1px;
+}
+.general-container div {
+    width: 45%;
+}
+.people-container {
+    display: flex;
+    justify-content: center;
+}
+h2, h1, h3, h4 {
+    text-align: center;
+}
+.people-container img {
+    height: 250px;
+}
+.people-container h4 {
+    text-align: center;
+}
+.communication-container {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(white, silver);
+    color: black;
+    font-size: 1.3em;
+    text-shadow: white 1px 1px;
+}
+.communication-container div {
+    width: 30%;
+    margin: 1em;
+}
